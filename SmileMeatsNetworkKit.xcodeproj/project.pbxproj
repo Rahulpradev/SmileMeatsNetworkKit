@@ -15,6 +15,7 @@
 		3A3A9E8A281F987F001A6494 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A9E89281F987F001A6494 /* ContentView.swift */; };
 		3A3A9E8C281F9880001A6494 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3A9E8B281F9880001A6494 /* Assets.xcassets */; };
 		3A3A9E8F281F9880001A6494 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3A9E8E281F9880001A6494 /* Preview Assets.xcassets */; };
+		3A3A9E94281FA546001A6494 /* SMServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A9E93281FA546001A6494 /* SMServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3A3A9E89281F987F001A6494 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A3A9E8B281F9880001A6494 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A3A9E8E281F9880001A6494 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A3A9E93281FA546001A6494 /* SMServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				3A3A9E6A281F9860001A6494 /* SmileMeatsNetworkKit.h */,
 				3A3A9E6B281F9860001A6494 /* SmileMeatsNetworkKit.docc */,
+				3A3A9E93281FA546001A6494 /* SMServiceManager.swift */,
 			);
 			path = SmileMeatsNetworkKit;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3A9E6C281F9860001A6494 /* SmileMeatsNetworkKit.docc in Sources */,
+				3A3A9E94281FA546001A6494 /* SMServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +478,7 @@
 		3A3A9E7F281F9860001A6494 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 893TLVG7SD;
@@ -495,6 +500,7 @@
 		3A3A9E80281F9860001A6494 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 893TLVG7SD;

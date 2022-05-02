@@ -8,7 +8,10 @@
 import Foundation
 
 public class SMServiceManager {
-    func mockAPICall() {
+    
+    public init() {}
+    
+    public func mockAPICall() {
         DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
             print("received API response")
         }
